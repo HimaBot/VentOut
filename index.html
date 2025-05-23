@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VentOut - Anonymous Venting Platform</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- Optional: Custom Styles -->
+  <style>
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light py-3">
+    <div class="container">
+      <!-- Logo Left -->
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="images/logo.png" alt="VentOut" width="200" height="100">
+        <!--<span class="fw-bold text-dark">VentOut</span>-->
+      </a>
+
+      <!-- Hamburger Menu -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links Center -->
+      <div class="collapse navbar-collapse justify-content-center" id="mainNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">How It Works</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="talk.html">Talk Now</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Why Vent Out?</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Privacy Policy</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Optional Main Content Placeholder -->
+  <!--<main class="container mt-5">
+    <h1>Welcome to Vento</h1>
+    <p>This is your safe, anonymous space to vent and be heard.</p>
+  </main>-->
+
+  <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <!--<div class="carousel-item active" style="background-image: url('https://source.unsplash.com/1600x900/?calm');">-->
+        <div class="carousel-item active" style="background-image: url('images/Hero1.png');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1>Let It All Out</h1>
+          <p>Speak your mind. Cry, laugh, breathe freely.</p>
+          <p>You deserve to feel heard and unburdened.</p>
+          <a href="#" class="btn btn-light">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url('images/HeroFreedom.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1>A Space to Breathe</h1>
+          <p>No judgment. Just listening, support, and care.</p>
+          <p>Let go and let your voice be heard.</p>
+          <a href="#" class="btn btn-light">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url('images/HeroMentalHealth.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1>You Are Not Alone</h1>
+          <p>We’re here when you need to vent out.</p>
+          <p>Your voice matters more than you think.</p>
+          <a href="#" class="btn btn-light">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="carousel-item" style="background-image: url('images/HeroTherapy.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1>Healing Begins Here</h1>
+          <p>Talking is the first step to healing.</p>
+          <p>Let us walk that path with you.</p>
+          <a href="#" class="btn btn-light">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="carousel-item" style="background-image: url('images/HeroHope.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1>Vent. Heal. Repeat.</h1>
+          <p>Your story is safe with us.</p>
+          <p>Every emotion deserves space.</p>
+          <a href="#" class="btn btn-light">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="carousel-item" style="background-image: url('images/HeroComfort.png');">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1>Feel Lighter Today</h1>
+          <p>Sometimes all it takes is one conversation.</p>
+          <p>Start here, start now.</p>
+          <a href="#" class="btn btn-light">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation arrows -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ABOUT SECTION -->
+<section class="about-section py-5 bg-light">
+    <div class="container">
+      <div class="row align-items-center">
+  
+        <!-- Left Column: Tabs -->
+        <div class="col-lg-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase text-muted mb-3 small-title">About Us</h5>
+  
+          <!-- Tab Navigation -->
+          <ul class="nav nav-tabs custom-tabs mb-4" id="aboutTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" type="button" role="tab">Our Company</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab">Our Mission</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab">Our Vision</button>
+            </li>
+          </ul>
+  
+          <!-- Tab Content -->
+          <div class="tab-content" id="aboutTabContent">
+            <div class="tab-pane fade show active" id="company" role="tabpanel">
+              <h3 class="tab-heading">We Listen, Without Judgment</h3>
+              <p class="tab-text">VentOut is built to offer a space where voices are heard and hearts feel lighter. Our platform is anonymous, safe, and always here for you.</p>
+              <a href="#" class="btn btn-outline-dark">Learn More</a>
+            </div>
+            <div class="tab-pane fade" id="mission" role="tabpanel">
+              <h3 class="tab-heading">Empowering Emotional Expression</h3>
+              <p class="tab-text">Our mission is to normalize talking about feelings and to provide an outlet for anyone who needs to express themselves — free from stigma.</p>
+              <a href="#" class="btn btn-outline-dark">Learn More</a>
+            </div>
+            <div class="tab-pane fade" id="vision" role="tabpanel">
+              <h3 class="tab-heading">A World Where Everyone Feels Heard</h3>
+              <p class="tab-text">We envision a future where emotional release is part of self-care, and no one feels alone with their thoughts. One call can change your day.</p>
+              <a href="#" class="btn btn-outline-dark">Learn More</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Right Column: Image -->
+        <div class="col-lg-6 text-center">
+          <img src="images/CalmFree.jpg" class="img-fluid rounded shadow-lg about-image" alt="VentOut About Us Image">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+    <script src="script.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
