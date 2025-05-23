@@ -102,3 +102,113 @@ body {
     border-radius: 10px;
   }
   
+  /* About Section Styling */
+.about-section {
+  background-color: #f9fafa;
+}
+
+.small-title {
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  color: #6c757d;
+}
+
+.custom-tabs .nav-link {
+  border: none;
+  font-weight: 500;
+  padding: 0.75rem 1rem;
+  color: #333;
+  background-color: transparent;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-tabs .nav-link:hover,
+.custom-tabs .nav-link.active {
+  border-bottom: 2px solid #f28b8b;
+  color: #f28b8b;
+  background-color: transparent;
+}
+
+.tab-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.tab-text {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  color: #555;
+}
+
+.about-image {
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Fade-In Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Accordion */
+@media (max-width: 767px) {
+  .custom-tabs .nav-tabs {
+    display: none;
+  }
+
+  .custom-tabs .tab-content {
+    display: block;
+  }
+
+  .custom-tabs .tab-pane {
+    display: none;
+  }
+
+  .custom-tabs .tab-pane.active {
+    display: block;
+  }
+
+  .custom-tabs .nav-link {
+    display: none;
+  }
+
+  .custom-tabs .accordion-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .custom-tabs .accordion-link.active {
+    background-color: #e9ecef;
+  }
+
+  .custom-tabs .accordion-link:after {
+    content: '+';
+    float: right;
+    font-size: 1.2rem;
+  }
+
+  .custom-tabs .accordion-link.active:after {
+    content: '-';
+  }
+
+  .custom-tabs .tab-pane {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+  }
+}
