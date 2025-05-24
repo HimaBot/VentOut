@@ -56,6 +56,12 @@ body {
     background-color: #fff;
   }
 
+  /*How it works section*/
+  .bg-soft-blue-with-border {
+  background-color: #eaf6fc;
+  border-left: 5px solid #69b3e7;
+}
+
 
   /* Why Vent Section*/
 .bg-soft-blue {
