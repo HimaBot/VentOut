@@ -59,13 +59,13 @@ body {
 
   /* Why Vent Section*/
 .bg-soft-blue {
-  background-color: #e8f4f7; /* Light soothing blue */
+  background-color: #e8f4f7 !important; /* Light soothing blue */
 }
 .bg-soft-orange {
-  background-color: #fadcd9; /* Light soothing blue */
+  background-color: #fadcd9 !important; /* Light soothing blue */
 }
 .text-teal {
-  color: #218c8d; /* Teal accent */
+  color: #218c8d !important; /* Teal accent */
 }
 
   
