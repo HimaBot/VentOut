@@ -45,7 +45,7 @@
             <a class="nav-link" href="talk.html">Talk Now</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">Why Vent Out?</a>
+            <a class="nav-link" href="#whyvent-section">Why Vent Out?</a>
           </li>
           <li class="nav-item px-2">
             <a class="nav-link" href="#testimonials">Testimonials</a>
@@ -57,7 +57,7 @@
             <a class="nav-link" href="#privacy-section">Privacy Policy</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#contact-section">Contact</a>
+            <a class="nav-link" href="#feedback-section">Feedback</a>
           </li>
         </ul>
       </div>
@@ -160,6 +160,80 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+  <!--Why Vent starts-->
+  <!-- Why Vent Section -->
+<section class="py-5 bg-light" id="whyvent-section">
+  <div class="container">
+    <!-- Title -->
+    <div class="text-center mb-5">
+      <h2 class="display-5 fw-semibold text-teal">Why Vent?</h2>
+      <p class="lead text-muted">Bottled emotions don’t go away — they build up. Talking can change that. Talking about your feelings is not weakness—it’s relief.</p>
+    </div>
+
+    <!-- Benefits -->
+    <div class="row text-center mb-5">
+      <div class="col-md-4 mb-4">
+        <div class="p-4 border rounded shadow-sm bg-soft-orange h-100">
+          <div class="mb-3"><i class="bi bi-cloud-sun h1 text-teal"></i></div>
+          <h5 class="fw-semibold">Reduces Stress</h5>
+          <p class="text-muted">Letting emotions out can lighten your emotional load and calm the mind.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="p-4 border rounded shadow-sm bg-soft-orange h-100">
+          <div class="mb-3"><i class="bi bi-lightbulb h1 text-teal"></i></div>
+          <h5 class="fw-semibold">Clarifies Thoughts</h5>
+          <p class="text-muted">Vocalizing feelings brings clarity and breaks repetitive thinking loops.</p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="p-4 border rounded shadow-sm bg-soft-orange h-100">
+          <div class="mb-3"><i class="bi bi-person-heart h1 text-teal"></i></div>
+          <h5 class="fw-semibold">Builds Self-Awareness</h5>
+          <p class="text-muted">The more you express, the more you understand yourself and your needs.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- You're Not Alone Section -->
+    <div class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img src="./images/ES3.png" class="img-fluid rounded shadow" alt="Emotional support illustration">
+      </div>
+      <div class="col-md-6 mt-4 mt-md-0">
+        <h4 class="fw-bold text-teal">You're Not Alone</h4>
+        <p class="text-muted">1 in 3 adults feel emotionally overwhelmed weekly. You're not the only one carrying invisible burdens. That’s why we built VentOut — to offer a release, a breath, a space to be heard.</p>
+        <blockquote class="blockquote text-muted">
+          <p class="mb-0">"Venting can disrupt spiraling thoughts and restore emotional balance."</p>
+          <!--<p></p>
+          <footer class="blockquote-footer">Dr. Ananya Rao, Clinical Psychologist</footer>-->
+        </blockquote>
+      </div>
+    </div>
+    <!-- What Can You Talk About Section -->
+<div class="row justify-content-center">
+  <div class="col-md-10">
+    <div class="p-4 rounded shadow-sm bg-soft-blue text-center">
+      <h4 class="fw-bold text-teal mb-3">What Can You Talk About?</h4>
+      <p class="text-muted mb-4">Anything that's on your mind or heart. There's no right or wrong reason to vent:</p>
+      <ul class="list-inline fs-5 text-muted">
+        <li class="list-inline-item mx-3">💼 Work stress</li>
+        <li class="list-inline-item mx-3">❤️ Relationship issues</li>
+        <li class="list-inline-item mx-3">🧠 Mental overwhelm</li>
+        <li class="list-inline-item mx-3">📅 Daily frustration</li>
+        <li class="list-inline-item mx-3">🤷 “I don’t know why I feel like this”</li>
+      </ul>
+      <p class="mt-4 text-muted">No filters. No judgment. Just someone who’s ready to listen when you need it most.</p>
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+</section>
+
+  <!--Why Ventout ends-->
 
 <!--Testimonials Section Start-->
 <section id="testimonials" class="py-5 bg-light">
@@ -418,6 +492,56 @@
 </section>
 <!--End of Privacy Policy section-->
 
+<!--Start of Feedback Section-->
+<section class="feedback-section" id="feedback-section">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Feedback / Complaint</h2>
+      <p class="text-muted">We value your voice. Let us know what you think or how we can improve.</p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="feedback-card">
+          <h3>Send Us Your Feedback</h3>
+          <form id="feedbackForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name <small class="text-muted">(optional)</small></label>
+              <input type="text" class="form-control" id="name" placeholder="Brad Pitt">
+            </div>
+            <div class="mb-3">
+              <label for="contact" class="form-label">Contact Number <small class="text-muted">(optional)</small></label>
+              <input type="tel" class="form-control" id="contact" placeholder="e.g., +91 9876543210">
+            </div>
+            <div class="mb-3">
+              <label for="feedback" class="form-label">Your Feedback or Complaint <span class="text-danger">*</span></label>
+              <textarea class="form-control" id="feedback" rows="4" placeholder="Share your thoughts..." required></textarea>
+              <div class="invalid-feedback">This field is required.</div>
+            </div>
+            <button type="submit" class="feedbackbtn btn-feedbacksubmit">Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Bootstrap form validation
+  (function () {
+    const form = document.getElementById('feedbackForm');
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  })();
+</script>
+
+<!--End of Feedback section-->
 
 <!--Start contact section-->
 <section class="contact-section" id="contact-section">
@@ -437,7 +561,7 @@
             </div>
             <div class="mb-3">
               <label for="email" class="form-label">Your Email</label>
-              <input type="email" class="form-control" id="email" placeholder="tom@cruise.com">
+              <input type="email" class="form-control" id="email" placeholder="robert@pattinson.com">
             </div>
             <div class="mb-3">
               <label for="message" class="form-label">Your Message</label>

@@ -56,6 +56,19 @@ body {
     background-color: #fff;
   }
 
+
+  /* Why Vent Section*/
+.bg-soft-blue {
+  background-color: #e8f4f7; /* Light soothing blue */
+}
+.bg-soft-orange {
+  background-color: #fadcd9; /* Light soothing blue */
+}
+.text-teal {
+  color: #218c8d; /* Teal accent */
+}
+
+  
     /*About Section */
     .about-section {
       background-color: #f9fafa;
@@ -128,6 +141,38 @@ body {
       background-color: #f8f9fa;
       padding: 60px 20px;
     }
+
+    /*Feedback section */
+    .feedback-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+
+    .feedback-card {
+      background: white;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    }
+
+    .feedback-card h3 {
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+
+    .form-control, .feedbackbtn {
+      border-radius: 6px;
+    }
+
+    .feedbackbtn-submit {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .feedbackbtn-submit:hover {
+      background-color: #0056b3;
+    }
+
 
     /*Contact Us Section*/
     .contact-section {
