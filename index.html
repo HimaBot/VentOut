@@ -48,16 +48,16 @@
             <a class="nav-link" href="#">Why Vent Out?</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link" href="#testimonials">Testimonials</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="#about-section">About Us</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">Privacy Policy</a>
+            <a class="nav-link" href="#privacy-section">Privacy Policy</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact-section">Contact</a>
           </li>
         </ul>
       </div>
@@ -161,9 +161,7 @@
     </button>
   </div>
 
-
-
-  <!--Start testimonials section-->
+<!--Testimonials Section Start-->
 <section id="testimonials" class="py-5 bg-light">
   <div class="container">
     <!-- Section Heading -->
@@ -182,7 +180,7 @@
           <i class="bi bi-chat-left-dots fs-2 text-primary mt-3"></i>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Testimonial 1</h5>
-            <img src="https://via.placeholder.com/80" class="rounded-circle my-3" alt="User 1">
+            <img src="./images/Test1.png" class="rounded-circle my-3" alt="User 1">
             <p class="card-text flex-grow-1">“I cried for 20 minutes and the listener didn’t interrupt. I just needed that.”</p>
             <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Read More</a>
           </div>
@@ -195,7 +193,7 @@
           <i class="bi bi-emoji-smile fs-2 text-success mt-3"></i>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Testimonial 2</h5>
-            <img src="https://via.placeholder.com/80" class="rounded-circle my-3" alt="User 2">
+            <img src="./images/Test 2.png" class="rounded-circle my-3" alt="User 2">
             <p class="card-text flex-grow-1">“It’s like a release valve for my brain.”</p>
             <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Read More</a>
           </div>
@@ -208,7 +206,7 @@
           <i class="bi bi-clock-history fs-2 text-secondary mt-3"></i>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Testimonial 3</h5>
-            <img src="https://via.placeholder.com/80" class="rounded-circle my-3" alt="Anonymous">
+            <img src="./images/BlankPerson.png" class="rounded-circle my-3" alt="Anonymous">
             <p class="card-text flex-grow-1">Anonymous avatars and safe, timestamped sessions made me feel protected.</p>
             <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Read More</a>
           </div>
@@ -221,7 +219,7 @@
           <i class="bi bi-chat-heart fs-2 text-danger mt-3"></i>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Testimonial 4</h5>
-            <img src="https://via.placeholder.com/80" class="rounded-circle my-3" alt="User 4">
+            <img src="./images/Test4.png" class="rounded-circle my-3" alt="User 4">
             <p class="card-text flex-grow-1">“No advice. Just space to talk. Beautiful.”</p>
             <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Read More</a>
           </div>
@@ -234,7 +232,7 @@
           <i class="bi bi-person-check fs-2 text-info mt-3"></i>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Testimonial 5</h5>
-            <img src="https://via.placeholder.com/80" class="rounded-circle my-3" alt="User 5">
+            <img src="./images/BlankPerson.png" class="rounded-circle my-3" alt="User 5">
             <p class="card-text flex-grow-1">“The freedom to talk without being judged changed my life.”</p>
             <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Read More</a>
           </div>
@@ -247,7 +245,7 @@
           <i class="bi bi-stars fs-2 text-warning mt-3"></i>
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">Testimonial 6</h5>
-            <img src="./images/3.jpg" class="rounded-circle my-3" alt="User 6">
+            <img src="./images/Test3.png" class="rounded-circle my-3" alt="User 6">
             <p class="card-text flex-grow-1">“This space is sacred to me now. Thank you for being there.”</p>
             <a href="#" class="btn btn-outline-primary btn-sm mt-auto">Read More</a>
           </div>
@@ -256,56 +254,54 @@
     </div>
   </div>
 </section>
+<!--Testimonials Section Ends-->
 
-
-<!--End testimonials section-->
-
-
+  
 
   <!-- ABOUT SECTION -->
-   <section class="about-section py-5">
+<section class="about-section py-5" id="about-section">
   <div class="container fade-in">
     <div class="row align-items-center">
 
-      <!-- Left Column -->
+      <!-- LEFT SIDE: Content -->
       <div class="col-lg-6 mb-4 mb-lg-0">
         <h5 class="text-uppercase text-muted mb-3 small-title">About Us</h5>
 
-        <!-- Tabs (Desktop) -->
-        <div class="desktop-tabs">
-          <ul class="nav nav-tabs custom-tabs mb-4" id="aboutTabs" role="tablist">
-            <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="company-tab" data-bs-toggle="tab" data-bs-target="#company" type="button">Our Company</button>
+        <!-- Tabs for Desktop -->
+        <div class="tabs-desktop">
+          <ul class="nav nav-tabs mb-3" id="desktopTabs" role="tablist">
+            <li class="nav-item">
+              <button class="nav-link active" id="company-tab" data-bs-toggle="tab" data-bs-target="#tab-company" type="button" role="tab">Our Company</button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button">Our Mission</button>
+            <li class="nav-item">
+              <button class="nav-link" id="mission-tab" data-bs-toggle="tab" data-bs-target="#tab-mission" type="button" role="tab">Our Mission</button>
             </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button">Our Vision</button>
+            <li class="nav-item">
+              <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#tab-vision" type="button" role="tab">Our Vision</button>
             </li>
           </ul>
 
-          <div class="tab-content" id="aboutTabContent">
-            <div class="tab-pane fade show active" id="company">
-              <h3>We Listen, Without Judgment</h3>
-              <p>VentOut is built to offer a space where voices are heard and hearts feel lighter. Our platform is anonymous, safe, and always here for you.</p>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="tab-company" role="tabpanel">
+              <h3 class="tab-heading">We Listen, Without Judgment</h3>
+              <p class="tab-text">VentOut offers a space where voices are heard and hearts feel lighter. Anonymous, safe, and supportive.</p>
               <a href="#" class="btn btn-outline-dark">Learn More</a>
             </div>
-            <div class="tab-pane fade" id="mission">
-              <h3>Empowering Emotional Expression</h3>
-              <p>Our mission is to normalize talking about feelings and to provide an outlet for anyone who needs to express themselves — free from stigma.</p>
+            <div class="tab-pane fade" id="tab-mission" role="tabpanel">
+              <h3 class="tab-heading">Empowering Emotional Expression</h3>
+              <p class="tab-text">We normalize talking about feelings, offering a platform to speak freely and be understood without stigma.</p>
               <a href="#" class="btn btn-outline-dark">Learn More</a>
             </div>
-            <div class="tab-pane fade" id="vision">
-              <h3>A World Where Everyone Feels Heard</h3>
-              <p>We envision a future where emotional release is part of self-care, and no one feels alone with their thoughts. One call can change your day.</p>
+            <div class="tab-pane fade" id="tab-vision" role="tabpanel">
+              <h3 class="tab-heading">A World Where Everyone Feels Heard</h3>
+              <p class="tab-text">We envision a future where no one feels alone. Emotional release becomes a pillar of self-care and connection.</p>
               <a href="#" class="btn btn-outline-dark">Learn More</a>
             </div>
           </div>
         </div>
 
-        <!-- Accordion (Mobile) -->
-        <div class="accordion mobile-accordion" id="aboutAccordion">
+        <!-- Accordion for Mobile -->
+        <div class="accordion accordion-mobile" id="mobileAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
@@ -314,8 +310,8 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show">
               <div class="accordion-body">
-                <h3>We Listen, Without Judgment</h3>
-                <p>VentOut is built to offer a space where voices are heard and hearts feel lighter. Our platform is anonymous, safe, and always here for you.</p>
+                <h3 class="tab-heading">We Listen, Without Judgment</h3>
+                <p class="tab-text">VentOut offers a space where voices are heard and hearts feel lighter. Anonymous, safe, and supportive.</p>
                 <a href="#" class="btn btn-outline-dark">Learn More</a>
               </div>
             </div>
@@ -329,8 +325,8 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse">
               <div class="accordion-body">
-                <h3>Empowering Emotional Expression</h3>
-                <p>Our mission is to normalize talking about feelings and to provide an outlet for anyone who needs to express themselves — free from stigma.</p>
+                <h3 class="tab-heading">Empowering Emotional Expression</h3>
+                <p class="tab-text">We normalize talking about feelings, offering a platform to speak freely and be understood without stigma.</p>
                 <a href="#" class="btn btn-outline-dark">Learn More</a>
               </div>
             </div>
@@ -344,8 +340,8 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse">
               <div class="accordion-body">
-                <h3>A World Where Everyone Feels Heard</h3>
-                <p>We envision a future where emotional release is part of self-care, and no one feels alone with their thoughts. One call can change your day.</p>
+                <h3 class="tab-heading">A World Where Everyone Feels Heard</h3>
+                <p class="tab-text">We envision a future where no one feels alone. Emotional release becomes a pillar of self-care and connection.</p>
                 <a href="#" class="btn btn-outline-dark">Learn More</a>
               </div>
             </div>
@@ -353,9 +349,9 @@
         </div>
       </div>
 
-      <!-- Right Column -->
+      <!-- RIGHT SIDE: Image -->
       <div class="col-lg-6 text-center">
-        <img src="./images/CalmFree.jpg" class="img-fluid rounded shadow-lg about-image" alt="VentOut About Us Image">
+        <img src="./images/AboutUs.png" class="img-fluid rounded shadow-lg about-image" alt="About VentOut" />
       </div>
 
     </div>
@@ -364,7 +360,7 @@
 <!--End of About us section-->
 
 <!-- Privacy Policy Section -->
-<section class="privacy-section">
+<section class="privacy-section" id="privacy-section">
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold"><i class="bi bi-shield-lock"></i> Privacy Policy</h2>
@@ -424,7 +420,7 @@
 
 
 <!--Start contact section-->
-<section class="contact-section">
+<section class="contact-section" id="contact-section">
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold">Get in Touch</h2>
@@ -457,7 +453,16 @@
         <div class="contact-card h-100">
           <h5 class="mb-3">Our Location</h5>
           <div class="map-responsive mb-3">
-            <iframe src="https://www.google.com/maps?q=central+park+nyc&output=embed"></iframe>
+            <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14013.509392256346!2d77.2167212!3d28.6448007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37dd3aa189%3A0x5e9ec229def56942!2sConnaught%20Place%2C%20New%20Delhi%2C%20Delhi%20110001%2C%20India!5e0!3m2!1sen!2sin!4v1716520800000!5m2!1sen!2sin" 
+  width="100%" 
+  height="100%" 
+  style="border:0; border-radius: 8px;" 
+  allowfullscreen="" 
+  loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
           </div>
           <div class="contact-info">
             <p><i class="bi bi-geo-alt-fill"></i> New Delhi</p>

@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f0f8f7;
+    color: #004d40 !important;
   }
 
   .navbar-brand img {
@@ -55,53 +56,37 @@ body {
     background-color: #fff;
   }
 
-  /* About Section Styling */
-.about-section {
-    background-color: #f9fafa;
-  }
-  
-  .small-title {
-    font-size: 0.85rem;
-    letter-spacing: 1px;
-    color: #6c757d;
-  }
-  
-  .custom-tabs .nav-link {
-    border: none;
-    font-weight: 500;
-    padding: 0.75rem 1rem;
-    color: #333;
-    background-color: transparent;
-    border-bottom: 2px solid transparent;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .custom-tabs .nav-link:hover,
-  .custom-tabs .nav-link.active {
-    border-bottom: 2px solid #f28b8b;
-    color: #f28b8b;
-    background-color: transparent;
-  }
-  
-  .tab-heading {
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-    color: #333;
-  }
-  
-  .tab-text {
-    font-size: 1rem;
-    margin-bottom: 1.2rem;
-    color: #555;
-  }
-  
-  .about-image {
-    max-height: 450px;
-    object-fit: cover;
-    border-radius: 10px;
-  }
- .fade-in {
+    /*About Section */
+    .about-section {
+      background-color: #f9fafa;
+    }
+
+    .small-title {
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+      color: #004d40 !important;
+    }
+
+    .tab-heading {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.75rem;
+       color: #004d40 !important;
+    }
+
+    .tab-text {
+      font-size: 1rem;
+      margin-bottom: 1.2rem;
+      color: #555;
+    }
+
+    .about-image {
+      max-height: 450px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .fade-in {
       opacity: 0;
       animation: fadeIn 1s ease-in-out forwards;
     }
@@ -112,52 +97,27 @@ body {
       }
     }
 
+    /* Hide tabs on small screens */
     @media (max-width: 767px) {
-      .desktop-tabs {
+      .tabs-desktop {
         display: none;
       }
     }
 
+    /* Hide accordion on large screens */
     @media (min-width: 768px) {
-      .mobile-accordion {
+      .accordion-mobile {
         display: none;
       }
     }
-
-/*Services Section*/
-.services-section {
-      background-color: #f8f9fa;
-      padding: 60px 0;
+  /* End About Section */
+    /* Testimonials Section*/
+     .card-body img {
+      height: 80px;
+      width: 80px;
+      object-fit: cover;
     }
-    .service-box {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
-      transition: all 0.3s ease;
-      height: 100%;
-    }
-    .service-box:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
-    }
-    .service-icon {
-      font-size: 40px;
-      color: #0d6efd;
-      margin-bottom: 20px;
-    }
-    .service-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      margin-bottom: 15px;
-    }
-    .service-text {
-      font-size: 0.95rem;
-      color: #555;
-      margin-bottom: 20px;
-    }
-
+/*End Testimonials Section*/
     /* Privacy Policy */
         .privacy-icon {
       font-size: 1.5rem;
@@ -168,7 +128,7 @@ body {
       background-color: #f8f9fa;
       padding: 60px 20px;
     }
-    
+
     /*Contact Us Section*/
     .contact-section {
       padding: 60px 0;
@@ -211,3 +171,4 @@ body {
       height: 100%;
       border: 0;
     }
+
